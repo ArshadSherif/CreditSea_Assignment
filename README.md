@@ -84,8 +84,7 @@ backend/
 3. **Environment Configuration**
    Create a `.env` file in the root directory:
    ```env
-   MONGO_URI=mongodb://localhost:27017/creditreports
-   PORT=5000
+   MONGO_URI=mongodb://localhost:27017/creditreports 
    ```
 
 4. **Start the server**
@@ -107,7 +106,7 @@ backend/
 
 2. **Start the development server**
    ```bash
-   npm start
+   npm run dev 
    ```
 
 The application will be available at:
